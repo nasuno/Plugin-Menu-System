@@ -2,7 +2,8 @@
 
 > ⚠️ **Note:** The menu system is a WIP and is included for plugin events demonstration. 
 
-A standardized dropdown menu system for creating interactive menus in the spatial environment.  Integrates with the Event Aggregator for hover detection. 
+A standardized dropdown menu system for creating interactive menus in the spatial environment.  
+Integrates with the Event Aggregator for hover detection. 
 
 ---
 
@@ -18,7 +19,8 @@ Dim menu = PluginLocator.Get(Of Object)("MenuSystem")
 
 ### CreateMenu
 ```vb
-Sub CreateMenu(menuName As String, panel As PanelType, Optional anchorTopRow As Integer = 5, Optional anchorLeftCol As Integer = 10)
+Sub CreateMenu(menuName As String, panel As PanelType,
+                    Optional anchorTopRow As Integer = 5, Optional anchorLeftCol As Integer = 10)
 ```
 Create a new dropdown menu host on the specified panel.
 
