@@ -1,7 +1,4 @@
-# Menu System Plugin Guide
 
-**Plugin:** Menu System v1.0  
-**Author:** Nasuno
 
 > ⚠️ **Note:** The menu system is a WIP and is included for plugin events demonstration. 
 
