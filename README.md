@@ -70,7 +70,7 @@ Requires Event Aggregator plugin for hover detection
 Dim menu = PluginLocator.Get(Of Object)("MenuSystem")
 
 If menu Is Nothing Then
-    Console. WriteLine("Menu system not found.")
+    Console.WriteLine("Menu system not found.")
     Return
 End If
 
@@ -90,7 +90,7 @@ menu.AddMenuItem("Edit", "Copy")
 menu.AddMenuItem("Edit", "Paste")
 
 ' Create a Help menu
-menu. CreateMenu("Help", PanelType.NorthPanel, anchorTopRow:=5, anchorLeftCol:=130)
+menu.CreateMenu("Help", PanelType.NorthPanel, anchorTopRow:=5, anchorLeftCol:=130)
 menu.AddMenuItem("Help", "Documentation")
 menu.AddMenuItem("Help", "About")
 ```
