@@ -96,3 +96,11 @@ menu.AddMenuItem("Help", "About")
  Plugin           | Purpose 
 ------------------|---------
  Event Aggregator | Provides `SpatialZoneMouseEnter` / `SpatialZoneMouseLeave` events for hover detection 
+
+---
+
+https://github.com/nasuno/Holodeck<br>
+https://github.com/nasuno/Holodeck_API<br>
+https://github.com/nasuno/Plugin-Satellite-Cubes<br>
+https://github.com/nasuno/Plugin-SpatialZone-Demo<br>
+https://github.com/nasuno/Plugin-Events
