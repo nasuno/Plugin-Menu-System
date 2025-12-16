@@ -1,5 +1,11 @@
 
 
+<br><br>
+
+![](https://s12.gifyu.com/images/bE6hW.png)
+
+<br><br>
+
 
 > ⚠️ **Note:** The menu system is a WIP and is included for plugin events demonstration. 
 
