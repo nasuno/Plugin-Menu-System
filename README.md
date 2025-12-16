@@ -1,48 +1,48 @@
 
 
+
 > ⚠️ **Note:** The menu system is a WIP and is included for plugin events demonstration. 
 
-A standardized dropdown menu system for creating interactive menus in the spatial environment.  
+A standardized dropdown menu system for creating interactive menus in the spatial environment.<br>
 Integrates with the Event Aggregator for hover detection. 
 
 ---
 
-## Accessing the Plugin
-
+&nbsp;&nbsp;Accessing the Plugin<br>
 ```vb
 Dim menu = PluginLocator.Get(Of Object)("MenuSystem")
 ```
 
 ---
 
-## API
+API
 
-### CreateMenu
+&nbsp;&nbsp;CreateMenu<br>
 ```vb
 Sub CreateMenu(menuName As String, panel As PanelType,
                     Optional anchorTopRow As Integer = 5, Optional anchorLeftCol As Integer = 10)
 ```
 Create a new dropdown menu host on the specified panel.
 
-### AddMenuItem
+&nbsp;&nbsp;AddMenuItem<br>
 ```vb
 Sub AddMenuItem(menuName As String, itemText As String)
 ```
 Add a dropdown item to an existing menu.
 
-### RemoveMenuItem
+&nbsp;&nbsp;RemoveMenuItem<br>
 ```vb
 Sub RemoveMenuItem(menuName As String, itemText As String)
 ```
 Remove a specific item from a menu.
 
-### ClearMenu
+&nbsp;&nbsp;ClearMenu<br>
 ```vb
 Sub ClearMenu(menuName As String)
 ```
 Remove all items from a menu (keeps the host).
 
-### DeleteMenu
+&nbsp;&nbsp;DeleteMenu<br>
 ```vb
 Sub DeleteMenu(menuName As String)
 ```
@@ -50,15 +50,15 @@ Completely remove a menu and all its items.
 
 ---
 
-## Behavior
+&nbsp;&nbsp;Behavior
 
-- Menus auto-expand when observer ray enters the host zone
-- Menus auto-collapse when observer ray leaves all zones (host + items)
-- Requires Event Aggregator plugin for hover detection
+Menus auto-expand when observer ray enters the host zone<br>
+Menus auto-collapse when observer ray leaves all zones (host + items)<br>
+Requires Event Aggregator plugin for hover detection
 
 ---
 
-## Usage Example
+&nbsp;&nbsp;Usage Example
 
 ```vb
 Dim menu = PluginLocator.Get(Of Object)("MenuSystem")
@@ -91,7 +91,7 @@ menu.AddMenuItem("Help", "About")
 
 ---
 
-## Dependencies
+&nbsp;&nbsp;Dependencies
 
  Plugin           | Purpose 
 ------------------|---------
